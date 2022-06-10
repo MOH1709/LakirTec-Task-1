@@ -1,0 +1,10 @@
+const COLOR = {
+  BACKGROUND: "#F9F9FB",
+  PRIMARY: "#F5CA48",
+  SECONDARY: "#F26C68",
+  PRICE: "#E4723C",
+  TEXT_PRIMARY: "#313234",
+  TEXT_SECONDARY: "#CDCDCD",
+};
+
+export { COLOR };
