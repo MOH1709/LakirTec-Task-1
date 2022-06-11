@@ -1,9 +1,12 @@
 let products = [
   {
     name: "pizza",
+    isSelected: true,
+    img: require("../assets/icons/pizza.png"),
     items: [
       {
         id: "1",
+        img: require("../assets/images/Pizzas/pizza1.png"),
         name: "Primavera Pizza",
         weight: 540,
         price: 5.99,
@@ -15,7 +18,8 @@ let products = [
       },
       {
         id: "2",
-        name: "Primavera Pizza",
+        img: require("../assets/images/Pizzas/pizza2.png"),
+        name: "Margirita Pizza",
         weight: 540,
         price: 5.99,
         crust: "thin crust",
@@ -26,7 +30,8 @@ let products = [
       },
       {
         id: "3",
-        name: "Primavera Pizza",
+        img: require("../assets/images/Pizzas/pizza3.png"),
+        name: "Mojjilla Pizza",
         weight: 540,
         price: 5.99,
         crust: "thin crust",
@@ -37,6 +42,18 @@ let products = [
       },
     ],
   },
-  { name: "sea food", items: [] },
-  { name: "soft drinks", items: [] },
+  {
+    name: "sea food",
+    isSelected: false,
+    img: require("../assets/icons/seafood.png"),
+    items: [],
+  },
+  {
+    name: "soft drinks",
+    isSelected: false,
+    img: require("../assets/icons/soda.png"),
+    items: [],
+  },
 ];
+
+export default products;

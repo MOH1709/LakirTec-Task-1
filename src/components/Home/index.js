@@ -1,5 +1,5 @@
 import HomeHeader from "./HomeHeader";
-import PopularItem from "./PopularCard";
-import CatergoryItem from "./CatergoryCard";
+import PopularCard from "./PopularCard";
+import CatergoryCard from "./CatergoryCard";
 
-export { HomeHeader, PopularItem, CatergoryItem };
+export { HomeHeader, PopularCard, CatergoryCard };
