@@ -8,11 +8,11 @@ import {
 } from "react-native";
 import { COLOR, SHADOW } from "../../theme";
 
-export default function PopularItem({ item, navigation }) {
+export default function PopularCard({ item, navigation }) {
   return (
     <TouchableWithoutFeedback
       onPress={() => {
-        navigation.navigate("Order");
+        navigation.navigate("Order", item);
       }}
     >
       <View style={[styles.container, SHADOW]}>

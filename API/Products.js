@@ -15,6 +15,24 @@ let products = [
           small: 10,
           medium: 14,
         },
+        ingredients: [
+          {
+            img: require("../assets/images/ingredients/Pizza1/cheese.png"),
+            name: "cheese",
+          },
+          {
+            img: require("../assets/images/ingredients/Pizza1/garlic.png"),
+            name: "garlic",
+          },
+          {
+            img: require("../assets/images/ingredients/Pizza1/ham.png"),
+            name: "ham",
+          },
+          {
+            img: require("../assets/images/ingredients/Pizza1/tomato.png"),
+            name: "tomato",
+          },
+        ],
       },
       {
         id: "2",
@@ -27,6 +45,20 @@ let products = [
           small: 10,
           medium: 14,
         },
+        ingredients: [
+          {
+            img: require("../assets/images/ingredients/Pizza1/cheese.png"),
+            name: "cheese",
+          },
+          {
+            img: require("../assets/images/ingredients/Pizza1/garlic.png"),
+            name: "garlic",
+          },
+          {
+            img: require("../assets/images/ingredients/Pizza1/ham.png"),
+            name: "ham",
+          },
+        ],
       },
       {
         id: "3",
@@ -39,6 +71,20 @@ let products = [
           small: 10,
           medium: 14,
         },
+        ingredients: [
+          {
+            img: require("../assets/images/ingredients/Pizza1/garlic.png"),
+            name: "garlic",
+          },
+          {
+            img: require("../assets/images/ingredients/Pizza1/ham.png"),
+            name: "ham",
+          },
+          {
+            img: require("../assets/images/ingredients/Pizza1/tomato.png"),
+            name: "tomato",
+          },
+        ],
       },
     ],
   },
